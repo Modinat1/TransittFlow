@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Lora&family=Montserrat:wght@400;500&family=Roboto&family=Rubik:wght@300&display=swap');
+
+.why_us{
+    position: relative;
+    background: url(../../assets/images/whyUsBg.png) no-repeat center/cover;
+    height: 300px;
+}
+.whyUs_overlay{
+    background-color: rgba(0, 0, 0, 0.3) ;
+    height: 300px;
+}
+/* whyUs Overlay Styling */
+.whyUs_overlay_container{
+    position: absolute;
+    /* border: 1px solid red; */
+    background-color: var(--white-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem;
+    left: 18rem;
+    top: 14rem;
+    line-height: 1.5;
+}
+ main .whyUs_info{
+    width: 50%;
+} 
+.whyUsAside{
+    width: 300px;
+    margin-left: 2rem; 
+}
+.whyUsAside img{
+    width: 100%;
+}  
+.whyUs_info p{
+    color: var(--paragrapg-color);
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'krub', sans-serif;
+    margin-top: 0.8rem;
+}
+.whyUs_flex{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.whyUs_flex img{
+    display: block;
+    width: 40px;
+    margin-right: 0.5rem;
+}
+.whyUsWomen{
+    position: absolute;
+    background-color: var(--white-color);
+    padding: 1rem;
+    margin: 0 auto;
+    top: 14.5rem;
+    left: 22rem;
+    width: 200px;
+}
+.whyUsWomen img{
+    width: 100%;
+}
+.statistic_counts{
+    margin-top: 5rem;
+    margin: 5rem auto 0 ;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--paragraph-color);
+    border-bottom: 1px solid var(--paragraph-color);
+}
+.divider{
+    width: 10px;
+    height: 10px;
+    margin: 0 0.5rem;
+}
+.statistics{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border-left: 1px solid var(--paragraph-color); */
+    padding: 1rem; 
+    width: 100%;
+}

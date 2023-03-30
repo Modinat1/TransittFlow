@@ -1,0 +1,35 @@
+.showcaseImg-container{
+    background: url(../../assets/images/showcaseImg.png) no-repeat top center/cover;
+    min-height: 500px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 500px;
+}
+.innerText{
+    color: var(--white-color);
+    width: 380px;
+    margin: 0 10rem;
+    padding: 6rem 0;
+}
+.innerText h6{
+    background-color: var(--primary-color2);
+    width: 44%;
+    padding: 0.01rem 0;
+}
+.innerText h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: 1rem;
+}
+.innerText p{
+    font-size: 0.8rem;
+}
+button.exploreBtn{
+/* background: linear-gradient(to right bottom, #ffb629, #ffda56, #ffd7a6); */
+background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+border: none;
+padding: 0.8rem;
+margin-top: 1rem;
+}

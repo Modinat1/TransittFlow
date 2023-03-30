@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Lora&family=Montserrat:wght@400;500&family=Roboto&family=Rubik:wght@300&display=swap');
+
+/* navlinks styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+ul .navlinks a {
+    position: relative;
+    cursor: pointer;
+    color: var(--white-color);
+    font-family: 'Krub', sans-serif;
+    font-weight: 300;
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: all ease-in-out 2s;
+}
+/* ul .navlinks a::after{
+    content: "";
+    border-bottom: 1px solid var(--white-color);
+    width: 100%;
+    bottom: 0;
+    left: ;
+} */
+ul .navlinks a:hover{
+    border-bottom: 1px solid var(--white-color);
+    margin-top: 2px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+}
+.social-icons{
+    margin-right: 2rem
+}
+.social-icon{
+    color: var(--white-color);
+    margin-right: 1rem
+}
+.requestBtn button{
+    background-color: var(--white-color);
+    border: none;
+    padding: 1rem;
+}

@@ -1,0 +1,69 @@
+.transportation{
+    position: relative;
+    margin-top: 35rem;
+}
+.transportation .heading{
+    font-weight: bolder;
+    text-align: center;
+}
+.transportation_footer {
+    background: linear-gradient(to right bottom, #ffb629, #ffda56, #ffd7a6);
+    margin-top: 13rem;
+    padding: 8rem;
+}
+.tranport_container{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    top: 3rem;
+    left: 8rem;
+}
+.transport{
+    height: 250px;
+    margin: 0.3rem;
+}
+.transport1{
+    background: url(../../assets/images/transporting1.png) no-repeat center/cover;
+}
+.transport2{
+    background: url(../../assets/images/transporting2.png) no-repeat center/cover;
+}
+.transport3{
+    background: url(../../assets/images/transporting3.png) no-repeat center/cover;
+}
+.transport4{
+    background: url(../../assets/images/transporting4.png) no-repeat center/cover;
+}
+.transport5{
+    background: url(../../assets/images/transporting5.png) no-repeat center/cover;
+}
+.transport_overlay{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 250px;
+}
+.innertext{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    padding: 1rem;
+    width: 100%;
+}
+.innertext h6{
+    color: var(--white-color);
+    font-size: 0.7rem;
+    opacity: 0.9;
+}
+.innertext small{
+    color: var(--primary-color1);
+    font-size: 0.6rem;
+}
+.transport_btn{
+    background-color: var(--primary-color2);
+    color: var(--white-color);
+    display: block;
+    margin: -9rem auto 0;
+    padding: 0.5rem 1.5rem;
+}

@@ -1,0 +1,66 @@
+.teamMembers_container{
+    width: 80%;
+    margin: 0 auto 3rem;
+    padding: 0 10rem; 
+}
+.teamMembers_container h6{
+    text-align: center;
+    color: var(--primary-color2);
+}
+.teamMembers_container h2{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.team_subheading {
+    position: relative;
+}
+.team_subheading::before {
+    position: absolute;
+    content: '';
+    border-left: 2px solid var(--primary-color1);
+    height: 100%;
+    left: 20.9rem;
+}
+.teamMemberCard_container{
+    display: flex;
+    margin: -2rem auto 0;
+    height: 400px;
+}
+.teamMemberCard{
+    position: relative;
+    width: 250px;
+    margin-right: 2rem;
+}
+.member1{
+    background: url(../../assets/images/teamImg1.png) no-repeat center/contain ;
+}
+.member2{
+    background: url(../../assets/images/teamImg2.png) no-repeat  center/contain;
+}
+.member3{
+    background: url(../../assets/images/teamImg3.png) no-repeat center/contain;
+}
+.teamMemberOverlay{
+    position: absolute;
+    background-color: var(--primary-color2);
+    color: var(--white-color);
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 1rem 1rem;
+}
+.teamMemberOverlay h5{
+    margin-bottom: 0.3rem;
+}
+.teamMemberOverlay small{
+    opacity: 0.5;
+}
+.teamMemberSocials{
+    position: absolute;
+    background-color: var(--primary-color1);
+    bottom: 3.5rem;
+    right: 0;
+    padding: 0.4rem .2rem;
+}
+.teamSocials{
+    margin-right: 0.5rem;
+}

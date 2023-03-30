@@ -1,0 +1,58 @@
+.whyChooseUs{
+    position: relative;
+    display: flex;
+    margin: 5rem 0;
+}
+.blue_Bg_Div {
+    width: 50%;
+    height: 600px;
+    background-color: var(--primary-color2);
+}
+.whyChooseUsCard{
+    background-color: var(--secondary-color);
+    width: 50%;
+    padding: 6rem;
+}
+.whyChooseUsCard h2{
+    margin: 1rem 0;
+}
+.whyChooseUsCard p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.whyChoose_flex_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.whyChoose_flex{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+.whyChoose_flex img{
+    width: 40px;
+    margin-right: 1rem;
+}
+.WhyChooseUsOverlay_container{
+    position: absolute;
+    background: url(../../assets/images/whyChooseUsOverlay.png) no-repeat top center/cover;
+    height: 400px;
+    width: 630px;
+    top: 17%;
+    left: 8%;
+}
+.inner_div{
+    position: absolute;
+    /* background-color: var(--primary-color1); */
+    background: linear-gradient(to right bottom, #ffb629, #ffda56, #ffd7a6);
+    width: 40%;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 30%;
+    padding: 0.5rem 1rem;
+}
+.inner_div img{
+    width: 50px;
+    margin-right: 1rem;
+}

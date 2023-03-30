@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Lora&family=Montserrat:wght@400;500&family=Roboto&family=Rubik:wght@300&display=swap');
+
+.services{
+    display: flex;
+    align-items: center;
+    padding: 0 10rem;
+}
+.services h2{
+    margin-top: 1rem;
+}
+.service_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.service{
+    display: flex;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+}
+.service_icon{
+    position: relative;
+    width: 60px;
+    margin-right: 3rem;
+}
+.service_icon::after{
+    position: absolute;
+    content: "";
+    border: 1px solid var(--paragraph-color);
+    height: 80%;
+    /* top: 5px; */
+    left: 3rem;
+    opacity: 0.3;
+}
+.service_icon img{
+    width: 100%;
+}
+.service_info h4{
+    font-family: 'krub', sans-serif;
+    font-weight: 900;
+    color: var(--heading-color);
+}
+.service_info p{
+    font-family: 'krub', sans-serif;
+    font-weight: 600;
+    font-size: 0.7rem;
+    color: var(--paragraph-color);
+}
