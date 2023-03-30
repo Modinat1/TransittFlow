@@ -1,0 +1,32 @@
+.contact_section{
+    background-color: var(--primary-color2);
+    color: var(--secondary-color);
+
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+.contact_form{
+    width: 500px;
+}
+.header_icon {
+    background-color: #273270;
+    border-radius: 50%;
+    color: var(--primary-color1);
+    opacity: 0.5;
+    padding: 0.6rem;
+    margin-top: -10px;
+}
+
+.header_info {
+    margin-left: 0.5rem;
+}
+
+.work_time {
+    display: flex;
+    align-items: center;
+}
+
+.header_flex {
+    display: flex;
+    margin-left: 2rem;
+}

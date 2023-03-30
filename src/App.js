@@ -5,7 +5,7 @@ import { WhyUs } from "./components/Why Us/WhyUs";
 import { Testimonial } from "./components/Testimonial/Testimonial";
 import { WhyChooseUs } from "./components/WhyChooseUs/WhyChooseUs";
 import { TeamMember } from "./components/TeamMember/TeamMember";
-// import { ContactUs } from "./components/ContactUs/ContactUs";
+import { ContactUs } from "./components/ContactUs/ContactUs";
 function App() {
   return (
     <div className="app">
@@ -16,7 +16,7 @@ function App() {
         <Testimonial/>
         <WhyChooseUs/>
         <TeamMember/>
-        {/* <ContactUs/> */}
+        <ContactUs/>
     </div>
   );
 }
